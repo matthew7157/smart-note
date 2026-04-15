@@ -1,0 +1,20 @@
+{
+    "name": "스마트노트",
+    "short_name": "스마트노트",
+    "start_url": "/smart-note/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2563C0",
+    "icons": [
+      {
+        "src": "https://via.placeholder.com/192",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://via.placeholder.com/512",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
