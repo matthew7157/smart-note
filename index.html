@@ -8,6 +8,11 @@
 <meta name="theme-color" content="#2563C0">
    <link rel="manifest" href="/smart-note/manifest.json">
    <link rel="manifest" href="/smart-note/manifest.json">
+   <script>
+  if('serviceWorker' in navigator){
+    navigator.serviceWorker.register('/smart-note/sw.js');
+  }
+  </script>
 <title>스마트 노트</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 <style>
